@@ -913,6 +913,17 @@ p { font-size: 1rem; color: var(--text-muted); margin-bottom: 1.5rem; }
     animation: none; /* Stops pulse on hover so standard card hover applies */
 }
 
+.team-avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #cbd5e1;
+}
+
 
 /* --- About / FAQ Specific Elements --- */
 .about-logo-wrapper { 
