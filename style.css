@@ -259,7 +259,32 @@ p { font-size: 1rem; color: var(--text-muted); margin-bottom: 1.5rem; }
     padding: 8px 16px;
     font-size: 0.85rem;
 }
+@media (max-width: 480px) {
+    .nav-container {
+        gap: 8px;
+    }
 
+    .nav-actions {
+        gap: 6px;
+        flex-shrink: 0;
+    }
+
+    .nav-actions .btn {
+        padding: 6px 10px;
+        font-size: 0.68rem;
+        line-height: 1.1;
+        border-radius: 6px;
+        white-space: nowrap;
+    }
+
+    .logo-text {
+        font-size: 1rem;
+    }
+
+    .menu-toggle span {
+        width: 20px;
+    }
+}
 @media (min-width: 768px) {
     .nav-actions .btn {
         padding: 12px 24px;
